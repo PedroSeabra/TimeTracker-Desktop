@@ -1,0 +1,30 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+}
+
+section .loginBarLeft {
+    width: 30%;
+    height: 98%;
+    background-color: #76b8cb;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section .loginSpaceRight {
+    width: 70%;
+    height: 98%;
+}
