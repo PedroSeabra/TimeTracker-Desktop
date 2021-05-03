@@ -78,7 +78,7 @@ section .loginBarLeft .loginForm .input input {
     border-radius: 8px;
 }
 
-section .loginBarLeft .loginForm .input input[type="submit"] {
+section .loginBarLeft .loginForm .input input[type="button"] {
     margin-top: 10px;
     color: #ffffff;
     background: #76b8cb;
@@ -88,7 +88,7 @@ section .loginBarLeft .loginForm .input input[type="submit"] {
     cursor: pointer;
 }
 
-section .loginBarLeft .loginForm .input input[type="submit"]:hover {
+section .loginBarLeft .loginForm .input input[type="button"]:hover {
     background: #419bb4;
     transition: 1s;
 }
