@@ -18,7 +18,7 @@ section {
 
 section .loginBarLeft {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 35%;
     height: 100%;
@@ -29,6 +29,8 @@ section .loginBarLeft {
 
 section .loginBarLeft .loginForm {
     width: 50%;
+    padding-right: 40px;
+    justify-content: space-around;
 }
 
 section .loginBarLeft .loginForm h2 {
@@ -36,7 +38,7 @@ section .loginBarLeft .loginForm h2 {
     font-weight: 600;
     font-size: 1.5em;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 2px solid #14708a;
     display: inline-block;
     letter-spacing: 1px;
