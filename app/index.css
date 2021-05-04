@@ -1,0 +1,108 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+section {
+    position: relative;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #76b8cb;
+}
+
+section .loginBarLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section .loginBarLeft .loginForm {
+    width: 50%;
+    padding-right: 40px;
+    justify-content: space-around;
+}
+
+section .loginBarLeft .loginForm h2 {
+    color: #14708a; 
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #14708a;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .loginBarLeft .loginForm .input {
+    margin-bottom: 20px;
+
+}
+
+section .loginBarLeft .loginForm .input p{
+    color: #263e44;
+    letter-spacing: 1px;
+}
+
+section .loginBarLeft .loginForm .input a{
+    color: #76b8cb;
+}
+
+section .loginBarLeft .loginForm .input span {
+    font-size: 16;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #14708a;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+section .loginBarLeft .loginForm .input input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #14708a;
+    font-size: 16;
+    letter-spacing: 1px;
+    color: #14708a;
+    background: transparent;
+    border-radius: 8px;
+}
+
+section .loginBarLeft .loginForm .input input[type="button"] {
+    margin-top: 10px;
+    color: #ffffff;
+    background: #76b8cb;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .loginBarLeft .loginForm .input input[type="button"]:hover {
+    background: #419bb4;
+    transition: 0.5s;
+}
+
+section .loginBarLeft .loginForm .remember{
+    margin-top: 10px;
+    flex-direction: column;
+    font-size: 10;
+    color: #497783;
+}
+
+section .loginBarLeft .loginForm .remember label{
+    margin-bottom: 40px;
+    color: #497783;
+}

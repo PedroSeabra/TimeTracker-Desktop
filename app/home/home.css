@@ -1,0 +1,115 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+section {
+    position: relative;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #76b8cb;
+}
+
+section .homeMenu {
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    width: 8%;
+    flex-direction: column;
+    height: 95%;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+section .homeMenu .principalButtons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+section .homeMenu .secondaryButtons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 20%;
+    align-items: center;
+
+}
+
+section .homeMenu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2c7488;
+    display: block;
+}
+  
+section .homeSpaceRight {
+    height: 93vh;
+    width: 88%;
+    margin-top: 1%;
+    margin-left: 2%;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+section .homeSpaceRight .topContainer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section .homeSpaceRight .topContainer span {
+    font-size: x-large;
+    letter-spacing: 5px;
+    color: #2c7488;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+section .homeSpaceRight .bottomContainer {
+    padding-left: 5%;
+    width: 90%;
+    height: 73vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section .homeSpaceRight .bottomContainer .profileInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+section .homeSpaceRight .bottomContainer .profileInfo a {
+    color: #2c7488;
+    text-decoration: none;
+}
+
+section .homeSpaceRight .bottomContainer .profileInfo span::first-child {
+    padding-top: 30%;
+}
+
+
+section .homeSpaceRight .bottomContainer .profileInfo h3 {
+    padding-left: 10%;
+    font-size: 16px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "TTDesktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^12.0.6",
+    "electron-reload": "^1.5.0"
+  }
+}
