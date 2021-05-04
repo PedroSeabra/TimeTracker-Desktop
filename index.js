@@ -14,11 +14,12 @@ app.on('ready' , () => {
       height: 700,
       maxWidth: 1200,
       maxHeight: 700,
-      frame: false, //tirar a parte de cima (incluindo botoes, so fecha pelo terminal)
+      frame: true, //tirar a parte de cima (incluindo botoes, so fecha pelo terminal)
       webPreferences: {
         nodeIntegration: true
       },
-      backgroundColor: "#76b8cb"
+      backgroundColor: "#76b8cb",
+      resizable: false,
   });
 
   mainWindow.loadURL(`file://${__dirname}/app/index.html`);

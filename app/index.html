@@ -8,36 +8,36 @@
     <body>
         <section>
             <div class="loginBarLeft">
-                <div class="loginForm">
+                <div class="loginForm" id="loginForm">
                     <h2> Login </h2>
                     <form>  
                         <div class="input">
                             <span> Username </span>
-                            <input type="text" name="">
+                            <input type="text" name="" id="emailInput" placeholder="Username">
                         </div>
                         <div class="input">
                             <span> Password </span>
-                            <input type="password" name="" >
+                            <input type="password" name="" id="passwordInput" placeholder="Password">
                         </div>
                         <div class="remember">
-                            <input type="checkbox" name="" style="margin-bottom: 10px;"> 
+                            <input type="checkbox" name="" style="margin-bottom: 10px;" id="check"> 
                             <label>
                                 Remember me
                             </label>
                         </div>
                         <div class="input">
-                            <a href="/home/home.html">
-                                <input class="inputBtn" type="button" value="Sign in" >
+                            <a href="./home/home.html">
+                                <input class="inputBtn" type="button" value="Sign in" onclick="loginRequest()">
                             </a> 
                         </div>
                         <div class="input">
-                            <p>Don't have an account? <a href="/home.html">Sign up</a></p>
+                            <p>Don't have an account? <a href="./home.html">Sign up</a></p>
                         </div>
                     </form>
                 </div>                        
             </div>
             <div class="loginSpaceRight">
-
+                
             </div>
         </section>
     </body>

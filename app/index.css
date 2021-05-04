@@ -92,7 +92,7 @@ section .loginBarLeft .loginForm .input input[type="button"] {
 
 section .loginBarLeft .loginForm .input input[type="button"]:hover {
     background: #419bb4;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 section .loginBarLeft .loginForm .remember{
@@ -105,9 +105,4 @@ section .loginBarLeft .loginForm .remember{
 section .loginBarLeft .loginForm .remember label{
     margin-bottom: 40px;
     color: #497783;
-}
-
-section .loginSpaceRight {
-    width: 70%;
-    height: 98%;
 }
